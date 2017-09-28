@@ -1,0 +1,11 @@
+#rotateid {
+	transform:rotate(50deg);
+}
+
+#skew {
+	transform:skew(90deg);
+}
+#allid {
+	transform: rotateX(30deg);
+	transform: perspective(100px);
+}
