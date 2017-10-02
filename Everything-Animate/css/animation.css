@@ -1,6 +1,6 @@
 #rotate  {
     background-color:lightblue;
-    transform:rotate(10deg);
+    transform:rotate(150deg);
 
 }
 
@@ -18,7 +18,17 @@
     transform:matrix(0.886,0.5,-0.5,0.886,5,0);
 }
 
-#pseudo2 input:focus { 
+#pseudo  {
+    background-color: green;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+ #pseudo:hover {
+    background-color: blue;
+}
+
+#pseudo2 input:focus {
     background-color: yellow;
 }
 
