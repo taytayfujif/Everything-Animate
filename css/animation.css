@@ -1,0 +1,76 @@
+#rotate  {
+    background-color:lightblue;
+    transform:rotate(150deg);
+
+}
+
+#skew {
+	transform:skew(20deg, 10deg);
+}
+
+#all {
+	transform: rotateX(30deg);
+	transform: skew(30deg, 20deg);
+}
+
+#matrix {
+    background-color:lightblue;
+    transform:matrix(0.886,0.5,-0.5,0.886,5,0);
+}
+
+#pseudo  {
+    background-color: green;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+ #pseudo:hover {
+    background-color: blue;
+}
+
+#pseudo2 input:focus {
+    background-color: yellow;
+}
+
+
+/* The animation code */
+@keyframes example {
+    from{
+        background-color: red;
+}
+    to{background-color: yellow;
+    }
+}
+
+/* The element to apply the animation to */
+ #animate {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    animation-name: example;
+    animation-duration: 10s;
+}
+
+#scale {
+    background-color:orange;
+    transform:scale(0.5,1);
+}
+
+#translatey {
+    background-color:purple;
+    transform:translate(100px) ;
+}
+
+#rotatex  {
+    background-color:lightblue;
+    transform: rotateX(130deg);
+}
+
+#transformelement  {
+  border: solid red;
+  transform: translate(100px) 
+  rotate(20deg);
+  transform-origin: 0 -250px;
+}
+
+
